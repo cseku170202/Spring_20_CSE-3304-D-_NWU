@@ -1,4 +1,4 @@
-# INSTRAGRAM(Network Simulator)
+# INSTAGRAM(Network Simulator)
 
 # Parag Biswas ,ID:20201138010, Email-paragkumerbiswas@gmail.com
 
