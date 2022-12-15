@@ -1,0 +1,57 @@
+n -t * -s 16 -v circle -c red -z 10.000000 -S UP -b "RedNet"
+n -t * -s 15 -v circle -c black -z 10.000000 -S UP
+n -t * -s 14 -v circle -c black -z 10.000000 -S UP
+n -t * -s 13 -v circle -c black -z 10.000000 -S UP
+n -t * -s 12 -v circle -c black -z 10.000000 -S UP
+n -t * -s 11 -v circle -c black -z 10.000000 -S UP
+n -t * -s 10 -v circle -c black -z 10.000000 -S UP
+n -t * -s 9 -v circle -c green -z 10.000000 -S UP -b "grameen"
+n -t * -s 27 -v circle -c blue -z 10.000000 -S UP -b "Banglalink"
+n -t * -s 8 -v circle -c black -z 10.000000 -S UP
+n -t * -s 26 -v circle -c black -z 10.000000 -S UP
+n -t * -s 7 -v circle -c black -z 10.000000 -S UP
+n -t * -s 25 -v circle -c black -z 10.000000 -S UP
+n -t * -s 6 -v circle -c black -z 10.000000 -S UP
+n -t * -s 24 -v circle -c black -z 10.000000 -S UP
+n -t * -s 5 -v circle -c black -z 10.000000 -S UP
+n -t * -s 23 -v circle -c black -z 10.000000 -S UP
+n -t * -s 4 -v circle -c black -z 10.000000 -S UP
+n -t * -s 22 -v circle -c black -z 10.000000 -S UP
+n -t * -s 3 -v circle -c purple -z 10.000000 -S UP -b "penta"
+n -t * -s 21 -v circle -c black -z 10.000000 -S UP
+n -t * -s 2 -v circle -c black -z 10.000000 -S UP
+n -t * -s 19 -v circle -c black -z 10.000000 -S UP
+n -t * -s 20 -v circle -c black -z 10.000000 -S UP
+n -t * -s 1 -v circle -c black -z 10.000000 -S UP
+n -t * -s 18 -v circle -c black -z 10.000000 -S UP
+n -t * -s 0 -v circle -c black -z 10.000000 -S UP
+n -t * -s 17 -v circle -c black -z 10.000000 -S UP
+l -t * -s 15 -d 16 -r 1.000000 -D 20.000000 -c black -o 57.1deg -l 29.788929 -S UP
+l -t * -s 14 -d 15 -r 1.000000 -D 20.000000 -c black -o 56.7deg -l 43.826157 -S UP
+l -t * -s 13 -d 14 -r 1.000000 -D 20.000000 -c black -o 56.9deg -l 44.356819 -S UP
+l -t * -s 12 -d 13 -r 1.000000 -D 20.000000 -c black -o 57.0deg -l 32.341072 -S UP
+l -t * -s 11 -d 12 -r 1.000000 -D 20.000000 -c black -o 62.4deg -l 40.476185 -S UP
+l -t * -s 11 -d 17 -r 1.000000 -D 20.000000 -c black -o 110.8deg -l 89.148247 -S UP
+l -t * -s 10 -d 12 -r 1.000000 -D 20.000000 -c black -o 44.9deg -l 29.435930 -S UP
+l -t * -s 10 -d 17 -r 1.000000 -D 20.000000 -c black -o 114.1deg -l 98.918411 -S UP
+l -t * -s 8 -d 9 -r 1.000000 -D 20.000000 -c black -o 57.2deg -l 25.734041 -S UP
+l -t * -s 26 -d 27 -r 1.000000 -D 20.000000 -c black -o 56.1deg -l 37.209526 -S UP
+l -t * -s 7 -d 8 -r 1.000000 -D 20.000000 -c black -o 56.9deg -l 28.177519 -S UP
+l -t * -s 25 -d 26 -r 1.000000 -D 20.000000 -c black -o 57.1deg -l 34.805813 -S UP
+l -t * -s 6 -d 7 -r 1.000000 -D 20.000000 -c black -o 57.1deg -l 26.483564 -S UP
+l -t * -s 24 -d 25 -r 1.000000 -D 20.000000 -c black -o 56.1deg -l 36.567406 -S UP
+l -t * -s 5 -d 6 -r 1.000000 -D 20.000000 -c black -o 57.6deg -l 43.061676 -S UP
+l -t * -s 23 -d 24 -r 1.000000 -D 20.000000 -c black -o 57.1deg -l 43.149349 -S UP
+l -t * -s 4 -d 5 -r 1.000000 -D 20.000000 -c black -o 57.6deg -l 65.582603 -S UP
+l -t * -s 4 -d 17 -r 1.000000 -D 20.000000 -c black -o 5.3deg -l 84.709419 -S UP
+l -t * -s 22 -d 23 -r 1.000000 -D 20.000000 -c black -o 57.1deg -l 19.181833 -S UP
+l -t * -s 21 -d 22 -r 1.000000 -D 20.000000 -c black -o 57.5deg -l 26.440199 -S UP
+l -t * -s 2 -d 3 -r 1.000000 -D 20.000000 -c black -o 56.2deg -l 88.594444 -S UP
+l -t * -s 19 -d 20 -r 1.000000 -D 20.000000 -c black -o 63.5deg -l 19.623695 -S UP
+l -t * -s 20 -d 21 -r 1.000000 -D 20.000000 -c black -o 57.1deg -l 29.228125 -S UP
+l -t * -s 1 -d 2 -r 1.000000 -D 20.000000 -c black -o 57.1deg -l 106.341858 -S UP
+l -t * -s 18 -d 20 -r 1.000000 -D 20.000000 -c black -o 49.8deg -l 17.863794 -S UP
+l -t * -s 0 -d 1 -r 1.000000 -D 20.000000 -c black -o 56.8deg -l 75.773193 -S UP
+l -t * -s 0 -d 17 -r 1.000000 -D 20.000000 -c black -o 6.8deg -l 30.163013 -S UP
+l -t * -s 17 -d 19 -r 1.000000 -D 20.000000 -c black -o 41.8deg -l 33.371033 -S UP
+l -t * -s 17 -d 18 -r 1.000000 -D 20.000000 -c black -o 45.5deg -l 44.660885 -S UP
