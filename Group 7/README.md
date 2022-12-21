@@ -8,5 +8,4 @@
 
 # Students of North Western University, Department of Computer Science and Engineering
 
-# Supervisor:-
-# Md. Shymon Islam, Lecturer, Department of Computer Science And Engineering, North Western University Khulna
+# Supervisor:- Md. Shymon Islam, Lecturer, Department of Computer Science And Engineering, North Western University Khulna
