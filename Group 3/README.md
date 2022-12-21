@@ -10,7 +10,7 @@ Email: srabonianisha@gmail.com
 
 Name: MD Shahed Afridi  
 Sudent ID: 20201134010  
-Email:shahedafridi99@gmail.com	       
+Email: shahedafridi99@gmail.com	       
                                     	
 Student of Computer Science and Engineering Department  
 North Western University, Khulna, Bangladesh	
