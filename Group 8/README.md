@@ -16,7 +16,8 @@ Student ID: 20201145010
 
 Email: trifa771@gmail.com
 
-Student of Computer Science and Engineering Department
+Department of Computer Science and Engineering
+
 North Western University, Khulna, Bangladesh
 
 Project supervisor: Md. Shymon Islam, Lecture, Department of CSE, North Western University, Khulna, Bangladesh
