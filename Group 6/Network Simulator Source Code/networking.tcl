@@ -1,0 +1,974 @@
+#------------------------------------------------------- 
+# This ns script has been created by the nam editor.
+# If you edit it manually, the nam editor might not
+# be able to open it properly in the future.
+#
+# EDITING BY HAND IS AT YOUR OWN RISK!
+#------------------------------------------------------- 
+# Create a new simulator object.
+set ns [new Simulator]
+# Create a nam trace datafile.
+set namfile [open /home/siddik/networking.nam w]
+$ns namtrace-all $namfile
+
+# Create wired nodes.
+set node(41) [$ns node]
+## node(41) at 784.719543,496.695831
+$node(41) set X_ 784.719543
+$node(41) set Y_ 496.695831
+$node(41) set Z_ 0.0
+$node(41) color "green"
+
+set node(40) [$ns node]
+## node(40) at 719.959900,489.384277
+$node(40) set X_ 719.959900
+$node(40) set Y_ 489.384277
+$node(40) set Z_ 0.0
+$node(40) color "green"
+
+set node(39) [$ns node]
+## node(39) at 625.431702,484.161652
+$node(39) set X_ 625.431702
+$node(39) set Y_ 484.161652
+$node(39) set Z_ 0.0
+$node(39) color "green"
+
+set node(38) [$ns node]
+## node(38) at 549.182434,481.550446
+$node(38) set X_ 549.182434
+$node(38) set Y_ 481.550446
+$node(38) set Z_ 0.0
+$node(38) color "green"
+
+set node(37) [$ns node]
+## node(37) at 457.265564,482.072601
+$node(37) set X_ 457.265564
+$node(37) set Y_ 482.072601
+$node(37) set Z_ 0.0
+$node(37) color "green"
+
+set node(36) [$ns node]
+## node(36) at 387.283356,479.983704
+$node(36) set X_ 387.283356
+$node(36) set Y_ 479.983704
+$node(36) set Z_ 0.0
+$node(36) color "green"
+
+set node(35) [$ns node]
+## node(35) at 328.268524,482.072601
+$node(35) set X_ 328.268524
+$node(35) set Y_ 482.072601
+$node(35) set Z_ 0.0
+$node(35) color "green"
+
+set node(34) [$ns node]
+## node(34) at 273.431732,484.683990
+$node(34) set X_ 273.431732
+$node(34) set Y_ 484.683990
+$node(34) set Z_ 0.0
+$node(34) color "green"
+
+set node(33) [$ns node]
+## node(33) at 801.431702,546.310120
+$node(33) set X_ 801.431702
+$node(33) set Y_ 546.310120
+$node(33) set Z_ 0.0
+$node(33) color "black"
+
+set node(32) [$ns node]
+## node(32) at 753.384277,542.654297
+$node(32) set X_ 753.384277
+$node(32) set Y_ 542.654297
+$node(32) set Z_ 0.0
+$node(32) color "black"
+
+set node(31) [$ns node]
+## node(31) at 695.413879,542.132080
+$node(31) set X_ 695.413879
+$node(31) set Y_ 542.132080
+$node(31) set Z_ 0.0
+$node(31) color "black"
+
+set node(30) [$ns node]
+## node(30) at 636.399048,545.265747
+$node(30) set X_ 636.399048
+$node(30) set Y_ 545.265747
+$node(30) set Z_ 0.0
+$node(30) color "black"
+
+set node(29) [$ns node]
+## node(29) at 594.618652,543.698730
+$node(29) set X_ 594.618652
+$node(29) set Y_ 543.698730
+$node(29) set Z_ 0.0
+$node(29) color "black"
+
+set node(28) [$ns node]
+## node(28) at 556.494019,546.310120
+$node(28) set X_ 556.494019
+$node(28) set Y_ 546.310120
+$node(28) set Z_ 0.0
+$node(28) color "black"
+
+set node(27) [$ns node]
+## node(27) at 511.580078,551.532654
+$node(27) set X_ 511.580078
+$node(27) set Y_ 551.532654
+$node(27) set Z_ 0.0
+$node(27) color "black"
+
+set node(26) [$ns node]
+## node(26) at 464.577179,548.399231
+$node(26) set X_ 464.577179
+$node(26) set Y_ 548.399231
+$node(26) set Z_ 0.0
+$node(26) color "black"
+
+set node(25) [$ns node]
+## node(25) at 426.452393,547.354614
+$node(25) set X_ 426.452393
+$node(25) set Y_ 547.354614
+$node(25) set Z_ 0.0
+$node(25) color "black"
+
+set node(24) [$ns node]
+## node(24) at 369.526672,545.265747
+$node(24) set X_ 369.526672
+$node(24) set Y_ 545.265747
+$node(24) set Z_ 0.0
+$node(24) color "black"
+
+set node(23) [$ns node]
+## node(23) at 310.511871,547.354614
+$node(23) set X_ 310.511871
+$node(23) set Y_ 547.354614
+$node(23) set Z_ 0.0
+$node(23) color "black"
+
+set node(22) [$ns node]
+## node(22) at 260.897614,548.399231
+$node(22) set X_ 260.897614
+$node(22) set Y_ 548.399231
+$node(22) set Z_ 0.0
+$node(22) color "black"
+
+set node(21) [$ns node]
+## node(21) at 219.639450,547.354614
+$node(21) set X_ 219.639450
+$node(21) set Y_ 547.354614
+$node(21) set Z_ 0.0
+$node(21) color "black"
+
+set node(20) [$ns node]
+## node(20) at 802.998474,598.535645
+$node(20) set X_ 802.998474
+$node(20) set Y_ 598.535645
+$node(20) set Z_ 0.0
+$node(20) color "red"
+
+set node(19) [$ns node]
+## node(19) at 757.040039,618.381287
+$node(19) set X_ 757.040039
+$node(19) set Y_ 618.381287
+$node(19) set Z_ 0.0
+$node(19) color "red"
+
+set node(18) [$ns node]
+## node(18) at 704.814392,617.336792
+$node(18) set X_ 704.814392
+$node(18) set Y_ 617.336792
+$node(18) set Z_ 0.0
+$node(18) color "red"
+
+set node(17) [$ns node]
+## node(17) at 655.722473,614.725525
+$node(17) set X_ 655.722473
+$node(17) set Y_ 614.725525
+$node(17) set Z_ 0.0
+$node(17) color "red"
+
+set node(16) [$ns node]
+## node(16) at 610.808533,613.681030
+$node(16) set X_ 610.808533
+$node(16) set Y_ 613.681030
+$node(16) set Z_ 0.0
+$node(16) color "red"
+
+set node(15) [$ns node]
+## node(15) at 556.494019,614.725525
+$node(15) set X_ 556.494019
+$node(15) set Y_ 614.725525
+$node(15) set Z_ 0.0
+$node(15) color "red"
+
+set node(14) [$ns node]
+## node(14) at 500.090515,618.381287
+$node(14) set X_ 500.090515
+$node(14) set Y_ 618.381287
+$node(14) set Z_ 0.0
+$node(14) color "red"
+
+set node(13) [$ns node]
+## node(13) at 442.120270,616.814575
+$node(13) set X_ 442.120270
+$node(13) set Y_ 616.814575
+$node(13) set Z_ 0.0
+$node(13) color "red"
+
+set node(12) [$ns node]
+## node(12) at 380.494049,615.770325
+$node(12) set X_ 380.494049
+$node(12) set Y_ 615.770325
+$node(12) set Z_ 0.0
+$node(12) color "red"
+
+set node(11) [$ns node]
+## node(11) at 329.313049,615.770325
+$node(11) set X_ 329.313049
+$node(11) set Y_ 615.770325
+$node(11) set Z_ 0.0
+$node(11) color "red"
+
+set node(10) [$ns node]
+## node(10) at 284.399078,614.203247
+$node(10) set X_ 284.399078
+$node(10) set Y_ 614.203247
+$node(10) set Z_ 0.0
+$node(10) color "red"
+
+set node(9) [$ns node]
+## node(9) at 242.096420,613.158752
+$node(9) set X_ 242.096420
+$node(9) set Y_ 613.158752
+$node(9) set Z_ 0.0
+$node(9) color "red"
+
+set node(8) [$ns node]
+## node(8) at 847.390137,574.511902
+$node(8) set X_ 847.390137
+$node(8) set Y_ 574.511902
+$node(8) set Z_ 0.0
+$node(8) color "purple"
+
+set node(7) [$ns node]
+## node(7) at 696.980652,674.262634
+$node(7) set X_ 696.980652
+$node(7) set Y_ 674.262634
+$node(7) set Z_ 0.0
+$node(7) color "blue"
+
+set node(6) [$ns node]
+## node(6) at 617.597900,674.262634
+$node(6) set X_ 617.597900
+$node(6) set Y_ 674.262634
+$node(6) set Z_ 0.0
+$node(6) color "blue"
+
+set node(5) [$ns node]
+## node(5) at 533.514832,675.829407
+$node(5) set X_ 533.514832
+$node(5) set Y_ 675.829407
+$node(5) set Z_ 0.0
+$node(5) color "blue"
+
+set node(4) [$ns node]
+## node(4) at 458.832336,677.918518
+$node(4) set X_ 458.832336
+$node(4) set Y_ 677.918518
+$node(4) set Z_ 0.0
+$node(4) color "blue"
+
+set node(3) [$ns node]
+## node(3) at 397.728546,678.440674
+$node(3) set X_ 397.728546
+$node(3) set Y_ 678.440674
+$node(3) set Z_ 0.0
+$node(3) color "blue"
+
+set node(2) [$ns node]
+## node(2) at 329.313049,677.396118
+$node(2) set X_ 329.313049
+$node(2) set Y_ 677.396118
+$node(2) set Z_ 0.0
+$node(2) color "blue"
+
+set node(1) [$ns node]
+## node(1) at 273.954102,674.262634
+$node(1) set X_ 273.954102
+$node(1) set Y_ 674.262634
+$node(1) set Z_ 0.0
+$node(1) color "blue"
+
+
+# Create links between nodes.
+$ns simplex-link $node(41) $node(8) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(41) $node(8) queuePos 0.5
+$ns simplex-link-op $node(41) $node(8) color black
+$ns simplex-link-op $node(41) $node(8) orient 51.2deg
+# Set Queue Properties for link 41->8
+[[$ns link $node(41) $node(8)] queue] set limit_ 20
+
+$ns simplex-link $node(41) $node(40) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(41) $node(40) queuePos 0.5
+$ns simplex-link-op $node(41) $node(40) color black
+$ns simplex-link-op $node(41) $node(40) orient 186.4deg
+# Set Queue Properties for link 41->40
+[[$ns link $node(41) $node(40)] queue] set limit_ 20
+
+$ns simplex-link $node(40) $node(41) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(40) $node(41) queuePos 0.5
+$ns simplex-link-op $node(40) $node(41) color black
+$ns simplex-link-op $node(40) $node(41) orient 6.4deg
+# Set Queue Properties for link 40->41
+[[$ns link $node(40) $node(41)] queue] set limit_ 20
+
+$ns simplex-link $node(40) $node(39) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(40) $node(39) queuePos 0.5
+$ns simplex-link-op $node(40) $node(39) color black
+$ns simplex-link-op $node(40) $node(39) orient 183.2deg
+# Set Queue Properties for link 40->39
+[[$ns link $node(40) $node(39)] queue] set limit_ 20
+
+$ns simplex-link $node(39) $node(40) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(39) $node(40) queuePos 0.5
+$ns simplex-link-op $node(39) $node(40) color black
+$ns simplex-link-op $node(39) $node(40) orient 3.2deg
+# Set Queue Properties for link 39->40
+[[$ns link $node(39) $node(40)] queue] set limit_ 20
+
+$ns simplex-link $node(39) $node(38) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(39) $node(38) queuePos 0.5
+$ns simplex-link-op $node(39) $node(38) color black
+$ns simplex-link-op $node(39) $node(38) orient 182.0deg
+# Set Queue Properties for link 39->38
+[[$ns link $node(39) $node(38)] queue] set limit_ 20
+
+$ns simplex-link $node(38) $node(39) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(38) $node(39) queuePos 0.5
+$ns simplex-link-op $node(38) $node(39) color black
+$ns simplex-link-op $node(38) $node(39) orient 2.0deg
+# Set Queue Properties for link 38->39
+[[$ns link $node(38) $node(39)] queue] set limit_ 20
+
+$ns simplex-link $node(38) $node(37) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(38) $node(37) queuePos 0.5
+$ns simplex-link-op $node(38) $node(37) color black
+$ns simplex-link-op $node(38) $node(37) orient 179.7deg
+# Set Queue Properties for link 38->37
+[[$ns link $node(38) $node(37)] queue] set limit_ 20
+
+$ns simplex-link $node(37) $node(38) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(37) $node(38) queuePos 0.5
+$ns simplex-link-op $node(37) $node(38) color black
+$ns simplex-link-op $node(37) $node(38) orient 359.7deg
+# Set Queue Properties for link 37->38
+[[$ns link $node(37) $node(38)] queue] set limit_ 20
+
+$ns simplex-link $node(37) $node(36) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(37) $node(36) queuePos 0.5
+$ns simplex-link-op $node(37) $node(36) color black
+$ns simplex-link-op $node(37) $node(36) orient 181.7deg
+# Set Queue Properties for link 37->36
+[[$ns link $node(37) $node(36)] queue] set limit_ 20
+
+$ns simplex-link $node(36) $node(37) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(36) $node(37) queuePos 0.5
+$ns simplex-link-op $node(36) $node(37) color black
+$ns simplex-link-op $node(36) $node(37) orient 1.7deg
+# Set Queue Properties for link 36->37
+[[$ns link $node(36) $node(37)] queue] set limit_ 20
+
+$ns simplex-link $node(36) $node(35) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(36) $node(35) queuePos 0.5
+$ns simplex-link-op $node(36) $node(35) color black
+$ns simplex-link-op $node(36) $node(35) orient 178.0deg
+# Set Queue Properties for link 36->35
+[[$ns link $node(36) $node(35)] queue] set limit_ 20
+
+$ns simplex-link $node(35) $node(36) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(35) $node(36) queuePos 0.5
+$ns simplex-link-op $node(35) $node(36) color black
+$ns simplex-link-op $node(35) $node(36) orient 358.0deg
+# Set Queue Properties for link 35->36
+[[$ns link $node(35) $node(36)] queue] set limit_ 20
+
+$ns simplex-link $node(35) $node(34) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(35) $node(34) queuePos 0.5
+$ns simplex-link-op $node(35) $node(34) color black
+$ns simplex-link-op $node(35) $node(34) orient 177.3deg
+# Set Queue Properties for link 35->34
+[[$ns link $node(35) $node(34)] queue] set limit_ 20
+
+$ns simplex-link $node(34) $node(35) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(34) $node(35) queuePos 0.5
+$ns simplex-link-op $node(34) $node(35) color black
+$ns simplex-link-op $node(34) $node(35) orient 357.3deg
+# Set Queue Properties for link 34->35
+[[$ns link $node(34) $node(35)] queue] set limit_ 20
+
+$ns simplex-link $node(33) $node(8) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(33) $node(8) queuePos 0.5
+$ns simplex-link-op $node(33) $node(8) color black
+$ns simplex-link-op $node(33) $node(8) orient 31.5deg
+# Set Queue Properties for link 33->8
+[[$ns link $node(33) $node(8)] queue] set limit_ 20
+
+$ns simplex-link $node(33) $node(32) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(33) $node(32) queuePos 0.5
+$ns simplex-link-op $node(33) $node(32) color black
+$ns simplex-link-op $node(33) $node(32) orient 184.4deg
+# Set Queue Properties for link 33->32
+[[$ns link $node(33) $node(32)] queue] set limit_ 20
+
+$ns simplex-link $node(32) $node(33) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(32) $node(33) queuePos 0.5
+$ns simplex-link-op $node(32) $node(33) color black
+$ns simplex-link-op $node(32) $node(33) orient 4.4deg
+# Set Queue Properties for link 32->33
+[[$ns link $node(32) $node(33)] queue] set limit_ 20
+
+$ns simplex-link $node(32) $node(31) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(32) $node(31) queuePos 0.5
+$ns simplex-link-op $node(32) $node(31) color black
+$ns simplex-link-op $node(32) $node(31) orient 180.5deg
+# Set Queue Properties for link 32->31
+[[$ns link $node(32) $node(31)] queue] set limit_ 20
+
+$ns simplex-link $node(31) $node(32) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(31) $node(32) queuePos 0.5
+$ns simplex-link-op $node(31) $node(32) color black
+$ns simplex-link-op $node(31) $node(32) orient 0.5deg
+# Set Queue Properties for link 31->32
+[[$ns link $node(31) $node(32)] queue] set limit_ 20
+
+$ns simplex-link $node(31) $node(30) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(31) $node(30) queuePos 0.5
+$ns simplex-link-op $node(31) $node(30) color black
+$ns simplex-link-op $node(31) $node(30) orient 177.0deg
+# Set Queue Properties for link 31->30
+[[$ns link $node(31) $node(30)] queue] set limit_ 20
+
+$ns simplex-link $node(30) $node(31) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(30) $node(31) queuePos 0.5
+$ns simplex-link-op $node(30) $node(31) color black
+$ns simplex-link-op $node(30) $node(31) orient 357.0deg
+# Set Queue Properties for link 30->31
+[[$ns link $node(30) $node(31)] queue] set limit_ 20
+
+$ns simplex-link $node(30) $node(29) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(30) $node(29) queuePos 0.5
+$ns simplex-link-op $node(30) $node(29) color black
+$ns simplex-link-op $node(30) $node(29) orient 182.1deg
+# Set Queue Properties for link 30->29
+[[$ns link $node(30) $node(29)] queue] set limit_ 20
+
+$ns simplex-link $node(29) $node(30) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(29) $node(30) queuePos 0.5
+$ns simplex-link-op $node(29) $node(30) color black
+$ns simplex-link-op $node(29) $node(30) orient 2.1deg
+# Set Queue Properties for link 29->30
+[[$ns link $node(29) $node(30)] queue] set limit_ 20
+
+$ns simplex-link $node(29) $node(28) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(29) $node(28) queuePos 0.5
+$ns simplex-link-op $node(29) $node(28) color black
+$ns simplex-link-op $node(29) $node(28) orient 176.1deg
+# Set Queue Properties for link 29->28
+[[$ns link $node(29) $node(28)] queue] set limit_ 20
+
+$ns simplex-link $node(28) $node(29) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(28) $node(29) queuePos 0.5
+$ns simplex-link-op $node(28) $node(29) color black
+$ns simplex-link-op $node(28) $node(29) orient 356.1deg
+# Set Queue Properties for link 28->29
+[[$ns link $node(28) $node(29)] queue] set limit_ 20
+
+$ns simplex-link $node(28) $node(27) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(28) $node(27) queuePos 0.5
+$ns simplex-link-op $node(28) $node(27) color black
+$ns simplex-link-op $node(28) $node(27) orient 173.4deg
+# Set Queue Properties for link 28->27
+[[$ns link $node(28) $node(27)] queue] set limit_ 20
+
+$ns simplex-link $node(27) $node(28) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(27) $node(28) queuePos 0.5
+$ns simplex-link-op $node(27) $node(28) color black
+$ns simplex-link-op $node(27) $node(28) orient 353.4deg
+# Set Queue Properties for link 27->28
+[[$ns link $node(27) $node(28)] queue] set limit_ 20
+
+$ns simplex-link $node(27) $node(26) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(27) $node(26) queuePos 0.5
+$ns simplex-link-op $node(27) $node(26) color black
+$ns simplex-link-op $node(27) $node(26) orient 183.8deg
+# Set Queue Properties for link 27->26
+[[$ns link $node(27) $node(26)] queue] set limit_ 20
+
+$ns simplex-link $node(26) $node(27) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(26) $node(27) queuePos 0.5
+$ns simplex-link-op $node(26) $node(27) color black
+$ns simplex-link-op $node(26) $node(27) orient 3.8deg
+# Set Queue Properties for link 26->27
+[[$ns link $node(26) $node(27)] queue] set limit_ 20
+
+$ns simplex-link $node(26) $node(25) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(26) $node(25) queuePos 0.5
+$ns simplex-link-op $node(26) $node(25) color black
+$ns simplex-link-op $node(26) $node(25) orient 181.6deg
+# Set Queue Properties for link 26->25
+[[$ns link $node(26) $node(25)] queue] set limit_ 20
+
+$ns simplex-link $node(25) $node(26) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(25) $node(26) queuePos 0.5
+$ns simplex-link-op $node(25) $node(26) color black
+$ns simplex-link-op $node(25) $node(26) orient 1.6deg
+# Set Queue Properties for link 25->26
+[[$ns link $node(25) $node(26)] queue] set limit_ 20
+
+$ns simplex-link $node(25) $node(24) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(25) $node(24) queuePos 0.5
+$ns simplex-link-op $node(25) $node(24) color black
+$ns simplex-link-op $node(25) $node(24) orient 182.1deg
+# Set Queue Properties for link 25->24
+[[$ns link $node(25) $node(24)] queue] set limit_ 20
+
+$ns simplex-link $node(24) $node(25) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(24) $node(25) queuePos 0.5
+$ns simplex-link-op $node(24) $node(25) color black
+$ns simplex-link-op $node(24) $node(25) orient 2.1deg
+# Set Queue Properties for link 24->25
+[[$ns link $node(24) $node(25)] queue] set limit_ 20
+
+$ns simplex-link $node(24) $node(23) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(24) $node(23) queuePos 0.5
+$ns simplex-link-op $node(24) $node(23) color black
+$ns simplex-link-op $node(24) $node(23) orient 178.0deg
+# Set Queue Properties for link 24->23
+[[$ns link $node(24) $node(23)] queue] set limit_ 20
+
+$ns simplex-link $node(23) $node(24) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(23) $node(24) queuePos 0.5
+$ns simplex-link-op $node(23) $node(24) color black
+$ns simplex-link-op $node(23) $node(24) orient 358.0deg
+# Set Queue Properties for link 23->24
+[[$ns link $node(23) $node(24)] queue] set limit_ 20
+
+$ns simplex-link $node(23) $node(22) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(23) $node(22) queuePos 0.5
+$ns simplex-link-op $node(23) $node(22) color black
+$ns simplex-link-op $node(23) $node(22) orient 178.8deg
+# Set Queue Properties for link 23->22
+[[$ns link $node(23) $node(22)] queue] set limit_ 20
+
+$ns simplex-link $node(22) $node(23) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(22) $node(23) queuePos 0.5
+$ns simplex-link-op $node(22) $node(23) color black
+$ns simplex-link-op $node(22) $node(23) orient 358.8deg
+# Set Queue Properties for link 22->23
+[[$ns link $node(22) $node(23)] queue] set limit_ 20
+
+$ns simplex-link $node(22) $node(21) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(22) $node(21) queuePos 0.5
+$ns simplex-link-op $node(22) $node(21) color black
+$ns simplex-link-op $node(22) $node(21) orient 181.5deg
+# Set Queue Properties for link 22->21
+[[$ns link $node(22) $node(21)] queue] set limit_ 20
+
+$ns simplex-link $node(21) $node(22) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(21) $node(22) queuePos 0.5
+$ns simplex-link-op $node(21) $node(22) color black
+$ns simplex-link-op $node(21) $node(22) orient 1.5deg
+# Set Queue Properties for link 21->22
+[[$ns link $node(21) $node(22)] queue] set limit_ 20
+
+$ns simplex-link $node(20) $node(8) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(20) $node(8) queuePos 0.5
+$ns simplex-link-op $node(20) $node(8) color black
+$ns simplex-link-op $node(20) $node(8) orient 331.6deg
+# Set Queue Properties for link 20->8
+[[$ns link $node(20) $node(8)] queue] set limit_ 20
+
+$ns simplex-link $node(20) $node(19) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(20) $node(19) queuePos 0.5
+$ns simplex-link-op $node(20) $node(19) color black
+$ns simplex-link-op $node(20) $node(19) orient 156.6deg
+# Set Queue Properties for link 20->19
+[[$ns link $node(20) $node(19)] queue] set limit_ 20
+
+$ns simplex-link $node(19) $node(20) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(19) $node(20) queuePos 0.5
+$ns simplex-link-op $node(19) $node(20) color black
+$ns simplex-link-op $node(19) $node(20) orient 336.6deg
+# Set Queue Properties for link 19->20
+[[$ns link $node(19) $node(20)] queue] set limit_ 20
+
+$ns simplex-link $node(19) $node(18) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(19) $node(18) queuePos 0.5
+$ns simplex-link-op $node(19) $node(18) color black
+$ns simplex-link-op $node(19) $node(18) orient 181.1deg
+# Set Queue Properties for link 19->18
+[[$ns link $node(19) $node(18)] queue] set limit_ 20
+
+$ns simplex-link $node(18) $node(19) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(18) $node(19) queuePos 0.5
+$ns simplex-link-op $node(18) $node(19) color black
+$ns simplex-link-op $node(18) $node(19) orient 1.1deg
+# Set Queue Properties for link 18->19
+[[$ns link $node(18) $node(19)] queue] set limit_ 20
+
+$ns simplex-link $node(18) $node(17) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(18) $node(17) queuePos 0.5
+$ns simplex-link-op $node(18) $node(17) color black
+$ns simplex-link-op $node(18) $node(17) orient 183.0deg
+# Set Queue Properties for link 18->17
+[[$ns link $node(18) $node(17)] queue] set limit_ 20
+
+$ns simplex-link $node(17) $node(18) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(17) $node(18) queuePos 0.5
+$ns simplex-link-op $node(17) $node(18) color black
+$ns simplex-link-op $node(17) $node(18) orient 3.0deg
+# Set Queue Properties for link 17->18
+[[$ns link $node(17) $node(18)] queue] set limit_ 20
+
+$ns simplex-link $node(17) $node(16) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(17) $node(16) queuePos 0.5
+$ns simplex-link-op $node(17) $node(16) color black
+$ns simplex-link-op $node(17) $node(16) orient 181.3deg
+# Set Queue Properties for link 17->16
+[[$ns link $node(17) $node(16)] queue] set limit_ 20
+
+$ns simplex-link $node(16) $node(17) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(16) $node(17) queuePos 0.5
+$ns simplex-link-op $node(16) $node(17) color black
+$ns simplex-link-op $node(16) $node(17) orient 1.3deg
+# Set Queue Properties for link 16->17
+[[$ns link $node(16) $node(17)] queue] set limit_ 20
+
+$ns simplex-link $node(16) $node(15) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(16) $node(15) queuePos 0.5
+$ns simplex-link-op $node(16) $node(15) color black
+$ns simplex-link-op $node(16) $node(15) orient 178.9deg
+# Set Queue Properties for link 16->15
+[[$ns link $node(16) $node(15)] queue] set limit_ 20
+
+$ns simplex-link $node(15) $node(16) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(15) $node(16) queuePos 0.5
+$ns simplex-link-op $node(15) $node(16) color black
+$ns simplex-link-op $node(15) $node(16) orient 358.9deg
+# Set Queue Properties for link 15->16
+[[$ns link $node(15) $node(16)] queue] set limit_ 20
+
+$ns simplex-link $node(15) $node(14) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(15) $node(14) queuePos 0.5
+$ns simplex-link-op $node(15) $node(14) color black
+$ns simplex-link-op $node(15) $node(14) orient 176.3deg
+# Set Queue Properties for link 15->14
+[[$ns link $node(15) $node(14)] queue] set limit_ 20
+
+$ns simplex-link $node(14) $node(15) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(14) $node(15) queuePos 0.5
+$ns simplex-link-op $node(14) $node(15) color black
+$ns simplex-link-op $node(14) $node(15) orient 356.3deg
+# Set Queue Properties for link 14->15
+[[$ns link $node(14) $node(15)] queue] set limit_ 20
+
+$ns simplex-link $node(14) $node(13) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(14) $node(13) queuePos 0.5
+$ns simplex-link-op $node(14) $node(13) color black
+$ns simplex-link-op $node(14) $node(13) orient 181.5deg
+# Set Queue Properties for link 14->13
+[[$ns link $node(14) $node(13)] queue] set limit_ 20
+
+$ns simplex-link $node(13) $node(14) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(13) $node(14) queuePos 0.5
+$ns simplex-link-op $node(13) $node(14) color black
+$ns simplex-link-op $node(13) $node(14) orient 1.5deg
+# Set Queue Properties for link 13->14
+[[$ns link $node(13) $node(14)] queue] set limit_ 20
+
+$ns simplex-link $node(13) $node(12) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(13) $node(12) queuePos 0.5
+$ns simplex-link-op $node(13) $node(12) color black
+$ns simplex-link-op $node(13) $node(12) orient 181.0deg
+# Set Queue Properties for link 13->12
+[[$ns link $node(13) $node(12)] queue] set limit_ 20
+
+$ns simplex-link $node(12) $node(13) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(12) $node(13) queuePos 0.5
+$ns simplex-link-op $node(12) $node(13) color black
+$ns simplex-link-op $node(12) $node(13) orient 1.0deg
+# Set Queue Properties for link 12->13
+[[$ns link $node(12) $node(13)] queue] set limit_ 20
+
+$ns simplex-link $node(12) $node(11) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(12) $node(11) queuePos 0.5
+$ns simplex-link-op $node(12) $node(11) color black
+$ns simplex-link-op $node(12) $node(11) orient 180.0deg
+# Set Queue Properties for link 12->11
+[[$ns link $node(12) $node(11)] queue] set limit_ 20
+
+$ns simplex-link $node(11) $node(12) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(11) $node(12) queuePos 0.5
+$ns simplex-link-op $node(11) $node(12) color black
+$ns simplex-link-op $node(11) $node(12) orient 0.0deg
+# Set Queue Properties for link 11->12
+[[$ns link $node(11) $node(12)] queue] set limit_ 20
+
+$ns simplex-link $node(11) $node(10) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(11) $node(10) queuePos 0.5
+$ns simplex-link-op $node(11) $node(10) color black
+$ns simplex-link-op $node(11) $node(10) orient 182.0deg
+# Set Queue Properties for link 11->10
+[[$ns link $node(11) $node(10)] queue] set limit_ 20
+
+$ns simplex-link $node(10) $node(11) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(10) $node(11) queuePos 0.5
+$ns simplex-link-op $node(10) $node(11) color black
+$ns simplex-link-op $node(10) $node(11) orient 2.0deg
+# Set Queue Properties for link 10->11
+[[$ns link $node(10) $node(11)] queue] set limit_ 20
+
+$ns simplex-link $node(10) $node(9) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(10) $node(9) queuePos 0.5
+$ns simplex-link-op $node(10) $node(9) color black
+$ns simplex-link-op $node(10) $node(9) orient 181.4deg
+# Set Queue Properties for link 10->9
+[[$ns link $node(10) $node(9)] queue] set limit_ 20
+
+$ns simplex-link $node(9) $node(10) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(9) $node(10) queuePos 0.5
+$ns simplex-link-op $node(9) $node(10) color black
+$ns simplex-link-op $node(9) $node(10) orient 1.4deg
+# Set Queue Properties for link 9->10
+[[$ns link $node(9) $node(10)] queue] set limit_ 20
+
+$ns simplex-link $node(8) $node(41) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(8) $node(41) queuePos 0.5
+$ns simplex-link-op $node(8) $node(41) color black
+$ns simplex-link-op $node(8) $node(41) orient 231.2deg
+# Set Queue Properties for link 8->41
+[[$ns link $node(8) $node(41)] queue] set limit_ 20
+
+$ns simplex-link $node(8) $node(33) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(8) $node(33) queuePos 0.5
+$ns simplex-link-op $node(8) $node(33) color black
+$ns simplex-link-op $node(8) $node(33) orient 211.5deg
+# Set Queue Properties for link 8->33
+[[$ns link $node(8) $node(33)] queue] set limit_ 20
+
+$ns simplex-link $node(8) $node(20) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(8) $node(20) queuePos 0.5
+$ns simplex-link-op $node(8) $node(20) color black
+$ns simplex-link-op $node(8) $node(20) orient 151.6deg
+# Set Queue Properties for link 8->20
+[[$ns link $node(8) $node(20)] queue] set limit_ 20
+
+$ns simplex-link $node(8) $node(7) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(8) $node(7) queuePos 0.5
+$ns simplex-link-op $node(8) $node(7) color black
+$ns simplex-link-op $node(8) $node(7) orient 146.4deg
+# Set Queue Properties for link 8->7
+[[$ns link $node(8) $node(7)] queue] set limit_ 20
+
+$ns simplex-link $node(7) $node(8) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(7) $node(8) queuePos 0.5
+$ns simplex-link-op $node(7) $node(8) color black
+$ns simplex-link-op $node(7) $node(8) orient 326.4deg
+# Set Queue Properties for link 7->8
+[[$ns link $node(7) $node(8)] queue] set limit_ 20
+
+$ns simplex-link $node(7) $node(6) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(7) $node(6) queuePos 0.5
+$ns simplex-link-op $node(7) $node(6) color black
+$ns simplex-link-op $node(7) $node(6) orient 180.0deg
+# Set Queue Properties for link 7->6
+[[$ns link $node(7) $node(6)] queue] set limit_ 20
+
+$ns simplex-link $node(6) $node(7) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(6) $node(7) queuePos 0.5
+$ns simplex-link-op $node(6) $node(7) color black
+$ns simplex-link-op $node(6) $node(7) orient 0.0deg
+# Set Queue Properties for link 6->7
+[[$ns link $node(6) $node(7)] queue] set limit_ 20
+
+$ns simplex-link $node(6) $node(5) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(6) $node(5) queuePos 0.5
+$ns simplex-link-op $node(6) $node(5) color black
+$ns simplex-link-op $node(6) $node(5) orient 178.9deg
+# Set Queue Properties for link 6->5
+[[$ns link $node(6) $node(5)] queue] set limit_ 20
+
+$ns simplex-link $node(5) $node(6) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(5) $node(6) queuePos 0.5
+$ns simplex-link-op $node(5) $node(6) color black
+$ns simplex-link-op $node(5) $node(6) orient 358.9deg
+# Set Queue Properties for link 5->6
+[[$ns link $node(5) $node(6)] queue] set limit_ 20
+
+$ns simplex-link $node(5) $node(4) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(5) $node(4) queuePos 0.5
+$ns simplex-link-op $node(5) $node(4) color black
+$ns simplex-link-op $node(5) $node(4) orient 178.4deg
+# Set Queue Properties for link 5->4
+[[$ns link $node(5) $node(4)] queue] set limit_ 20
+
+$ns simplex-link $node(4) $node(5) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(4) $node(5) queuePos 0.5
+$ns simplex-link-op $node(4) $node(5) color black
+$ns simplex-link-op $node(4) $node(5) orient 358.4deg
+# Set Queue Properties for link 4->5
+[[$ns link $node(4) $node(5)] queue] set limit_ 20
+
+$ns simplex-link $node(4) $node(3) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(4) $node(3) queuePos 0.5
+$ns simplex-link-op $node(4) $node(3) color black
+$ns simplex-link-op $node(4) $node(3) orient 179.5deg
+# Set Queue Properties for link 4->3
+[[$ns link $node(4) $node(3)] queue] set limit_ 20
+
+$ns simplex-link $node(3) $node(4) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(3) $node(4) queuePos 0.5
+$ns simplex-link-op $node(3) $node(4) color black
+$ns simplex-link-op $node(3) $node(4) orient 359.5deg
+# Set Queue Properties for link 3->4
+[[$ns link $node(3) $node(4)] queue] set limit_ 20
+
+$ns simplex-link $node(3) $node(2) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(3) $node(2) queuePos 0.5
+$ns simplex-link-op $node(3) $node(2) color black
+$ns simplex-link-op $node(3) $node(2) orient 180.9deg
+# Set Queue Properties for link 3->2
+[[$ns link $node(3) $node(2)] queue] set limit_ 20
+
+$ns simplex-link $node(2) $node(3) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(2) $node(3) queuePos 0.5
+$ns simplex-link-op $node(2) $node(3) color black
+$ns simplex-link-op $node(2) $node(3) orient 0.9deg
+# Set Queue Properties for link 2->3
+[[$ns link $node(2) $node(3)] queue] set limit_ 20
+
+$ns simplex-link $node(2) $node(1) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(2) $node(1) queuePos 0.5
+$ns simplex-link-op $node(2) $node(1) color black
+$ns simplex-link-op $node(2) $node(1) orient 183.2deg
+# Set Queue Properties for link 2->1
+[[$ns link $node(2) $node(1)] queue] set limit_ 20
+
+$ns simplex-link $node(1) $node(2) 1.000000Mb 20.000000ms DropTail
+$ns simplex-link-op $node(1) $node(2) queuePos 0.5
+$ns simplex-link-op $node(1) $node(2) color black
+$ns simplex-link-op $node(1) $node(2) orient 3.2deg
+# Set Queue Properties for link 1->2
+[[$ns link $node(1) $node(2)] queue] set limit_ 20
+
+# Add Link Loss Models
+
+# Create agents.
+set agent(4) [new Agent/TCP]
+$ns attach-agent $node(34) $agent(4)
+
+$ns color 4 "green"
+$agent(4) set fid_ 4
+$agent(4) set packetSize_ 210
+$agent(4) set window_ 20
+$agent(4) set windowInit_ 1
+$agent(4) set maxcwnd_ 0
+
+# Create traffic sources and add them to the agent.
+set traffic_source(4) [new Application/FTP]
+$traffic_source(4) attach-agent $agent(4)
+$traffic_source(4) set maxpkts_ 256
+set agent(3) [new Agent/TCP]
+$ns attach-agent $node(21) $agent(3)
+
+$ns color 3 "black"
+$agent(3) set fid_ 3
+$agent(3) set packetSize_ 210
+$agent(3) set window_ 20
+$agent(3) set windowInit_ 1
+$agent(3) set maxcwnd_ 0
+
+# Create traffic sources and add them to the agent.
+set traffic_source(3) [new Application/FTP]
+$traffic_source(3) attach-agent $agent(3)
+$traffic_source(3) set maxpkts_ 256
+set agent(2) [new Agent/TCP]
+$ns attach-agent $node(9) $agent(2)
+
+$ns color 2 "red"
+$agent(2) set fid_ 2
+$agent(2) set packetSize_ 210
+$agent(2) set window_ 20
+$agent(2) set windowInit_ 1
+$agent(2) set maxcwnd_ 0
+
+# Create traffic sources and add them to the agent.
+set traffic_source(2) [new Application/FTP]
+$traffic_source(2) attach-agent $agent(2)
+$traffic_source(2) set maxpkts_ 256
+set agent(8) [new Agent/TCPSink]
+$ns attach-agent $node(8) $agent(8)
+$agent(8) set packetSize_ 210
+set agent(7) [new Agent/TCPSink]
+$ns attach-agent $node(8) $agent(7)
+$agent(7) set packetSize_ 210
+set agent(6) [new Agent/TCPSink]
+$ns attach-agent $node(8) $agent(6)
+$agent(6) set packetSize_ 210
+set agent(5) [new Agent/TCPSink]
+$ns attach-agent $node(8) $agent(5)
+$agent(5) set packetSize_ 210
+set agent(1) [new Agent/TCP]
+$ns attach-agent $node(1) $agent(1)
+
+$ns color 1 "blue"
+$agent(1) set fid_ 1
+$agent(1) set packetSize_ 210
+$agent(1) set window_ 20
+$agent(1) set windowInit_ 1
+$agent(1) set maxcwnd_ 0
+
+# Create traffic sources and add them to the agent.
+set traffic_source(1) [new Application/FTP]
+$traffic_source(1) attach-agent $agent(1)
+$traffic_source(1) set maxpkts_ 256
+
+# Connect agents.
+$ns connect $agent(4) $agent(8)
+
+
+# Traffic Source actions.
+$ns at 0.000000 "$traffic_source(4) start"
+$ns at 60.000000 "$traffic_source(4) stop"
+
+$ns connect $agent(3) $agent(7)
+
+
+# Traffic Source actions.
+$ns at 0.000000 "$traffic_source(3) start"
+$ns at 60.000000 "$traffic_source(3) stop"
+
+$ns connect $agent(2) $agent(6)
+
+
+# Traffic Source actions.
+$ns at 0.000000 "$traffic_source(2) start"
+$ns at 60.000000 "$traffic_source(2) stop"
+
+$ns connect $agent(1) $agent(5)
+
+
+# Traffic Source actions.
+$ns at 0.000000 "$traffic_source(1) start"
+$ns at 60.000000 "$traffic_source(1) stop"
+
+# Run the simulation
+proc finish {} {
+	global ns namfile
+	$ns flush-trace
+	close $namfile
+	exec nam -r 2000.000000us /home/siddik/networking.nam &	
+	exit 0
+	}
+$ns at 60.000000 "finish"
+$ns run
