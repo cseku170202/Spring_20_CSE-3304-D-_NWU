@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?><nmaprun start="1669447152" profile_name="Intense scan" xmloutputversion="1.04" scanner="nmap" version="7.92" startstr="Fri Nov 25 23:19:12 2022" args="nmap -T4 -A -v www.w3schools.com"><scaninfo services="1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3007,3011,3013,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5987-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389" protocol="tcp" numservices="1000" type="syn"></scaninfo><verbose level="1"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.92 ( https://nmap.org ) at 2022-11-25 23:19 Pacific Standard Time
+
+NSE: Loaded 155 scripts for scanning.
+
+NSE: Script Pre-scanning.
+
+Initiating NSE at 23:19
+
+Completed NSE at 23:19, 0.00s elapsed
+
+Initiating NSE at 23:19
+
+Completed NSE at 23:19, 0.00s elapsed
+
+Initiating NSE at 23:19
+
+Completed NSE at 23:19, 0.00s elapsed
+
+Initiating Ping Scan at 23:19
+
+Scanning www.w3schools.com (192.229.179.87) [4 ports]
+
+Completed Ping Scan at 23:19, 1.04s elapsed (1 total hosts)
+
+Initiating Parallel DNS resolution of 1 host. at 23:19
+
+Completed Parallel DNS resolution of 1 host. at 23:19, 0.01s elapsed
+
+Initiating SYN Stealth Scan at 23:19
+
+Scanning www.w3schools.com (192.229.179.87) [1000 ports]
+
+Discovered open port 80/tcp on 192.229.179.87
+
+Discovered open port 443/tcp on 192.229.179.87
+
+SYN Stealth Scan Timing: About 35.55% done; ETC: 23:20 (0:00:56 remaining)
+
+SYN Stealth Scan Timing: About 36.85% done; ETC: 23:22 (0:01:45 remaining)
+
+SYN Stealth Scan Timing: About 38.00% done; ETC: 23:23 (0:02:28 remaining)
+
+SYN Stealth Scan Timing: About 39.10% done; ETC: 23:24 (0:03:08 remaining)
+
+Increasing send delay for 192.229.179.87 from 0 to 5 due to 11 out of 27 dropped probes since last increase.
+
+SYN Stealth Scan Timing: About 79.20% done; ETC: 23:22 (0:00:40 remaining)
+
+SYN Stealth Scan Timing: About 81.15% done; ETC: 23:23 (0:00:45 remaining)
+
+SYN Stealth Scan Timing: About 84.35% done; ETC: 23:24 (0:00:45 remaining)
+
+Increasing send delay for 192.229.179.87 from 5 to 10 due to 11 out of 13 dropped probes since last increase.
+
+Completed SYN Stealth Scan at 23:24, 284.52s elapsed (1000 total ports)
+
+Initiating Service scan at 23:24
+
+Scanning 2 services on www.w3schools.com (192.229.179.87)
+
+Completed Service scan at 23:24, 15.55s elapsed (2 services on 1 host)
+
+Initiating OS detection (try #1) against www.w3schools.com (192.229.179.87)
+
+Retrying OS detection (try #2) against www.w3schools.com (192.229.179.87)
+
+Initiating Traceroute at 23:24
+
+Completed Traceroute at 23:24, 3.05s elapsed
+
+Initiating Parallel DNS resolution of 14 hosts. at 23:24
+
+Completed Parallel DNS resolution of 14 hosts. at 23:24, 6.14s elapsed
+
+NSE: Script scanning 192.229.179.87.
+
+Initiating NSE at 23:24
+
+Completed NSE at 23:24, 9.83s elapsed
+
+Initiating NSE at 23:24
+
+Completed NSE at 23:24, 1.96s elapsed
+
+Initiating NSE at 23:24
+
+Completed NSE at 23:24, 0.00s elapsed
+
+Nmap scan report for www.w3schools.com (192.229.179.87)
+
+Host is up (0.12s latency).
+
+Other addresses for www.w3schools.com (not scanned): 64:ff9b::c0e5:b357
+
+Not shown: 996 filtered tcp ports (no-response)
+
+PORT     STATE  SERVICE  VERSION
+
+80/tcp   open   http     Edgecast CDN httpd (sgb/C6CA)
+
+|_http-title: Did not follow redirect to https://www.w3schools.com:443/
+
+| http-methods: 
+
+|_  Supported Methods: GET HEAD POST OPTIONS
+
+| http-server-header: 
+
+|   ECS (sgb/C6C8)
+
+|_  awselb/2.0
+
+443/tcp  open   ssl/http Edgecast CDN httpd (sgb/C6A4)
+
+| http-robots.txt: 4 disallowed entries 
+
+|_/images /asp/demo_db_edit.asp *.aspx$ /code/
+
+|_http-title: W3Schools Online Web Tutorials
+
+| http-methods: 
+
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+
+|_  Potentially risky methods: TRACE
+
+|_http-favicon: Unknown favicon MD5: D0A0A853821906CCADC33A30118FD233
+
+| tls-nextprotoneg: 
+
+|   h2
+
+|   http/1.1
+
+|   http/1.0
+
+|   h3
+
+|   h3-29
+
+|   h3-Q050
+
+|   h3-Q046
+
+|_  h3-Q043
+
+| tls-alpn: 
+
+|   h2
+
+|   http/1.1
+
+|_  http/1.0
+
+| ssl-cert: Subject: commonName=*.w3schools.com/organizationName=Edgecast Inc./stateOrProvinceName=California/countryName=US
+
+| Subject Alternative Name: DNS:*.w3schools.com, DNS:w3schools.com
+
+| Issuer: commonName=DigiCert TLS RSA SHA256 2020 CA1/organizationName=DigiCert Inc/countryName=US
+
+| Public Key type: rsa
+
+| Public Key bits: 2048
+
+| Signature Algorithm: sha256WithRSAEncryption
+
+| Not valid before: 2022-04-08T00:00:00
+
+| Not valid after:  2023-05-04T23:59:59
+
+| MD5:   5237 111c 4cfc c3bb cd2b 4ed0 897b 821d
+
+|_SHA-1: c457 802f 5e0f f988 e816 01a9 6683 2a65 a0ad e150
+
+|_ssl-date: TLS randomness does not represent time
+
+| http-server-header: 
+
+|   ECS (sgb/C6A2)
+
+|_  ECS (sgb/C714)
+
+1119/tcp closed bnetgame
+
+1935/tcp closed rtmp
+
+Aggressive OS guesses: Linux 3.1 (87%), Linux 3.2 (87%), FreeBSD 12.0-RELEASE (86%), HP PSC 2400-series Photosmart printer (86%), OpenBSD 4.3 (86%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (86%), Asus RT-AC66U router (Linux 2.6) (85%), Asus RT-N16 WAP (Linux 2.6) (85%), Asus RT-N66U WAP (Linux 2.6) (85%), Tomato 1.28 (Linux 2.6.22) (85%)
+
+No exact OS matches for host (test conditions non-ideal).
+
+Uptime guess: 0.000 days (since Fri Nov 25 23:24:21 2022)
+
+Network Distance: 15 hops
+
+TCP Sequence Prediction: Difficulty=256 (Good luck!)
+
+IP ID Sequence Generation: Randomized
+
+
+
+TRACEROUTE (using port 1935/tcp)
+
+HOP RTT       ADDRESS
+
+1   6.00 ms   192.168.238.83
+
+2   128.00 ms 10.71.70.129
+
+3   73.00 ms  10.71.72.65
+
+4   ...
+
+5   107.00 ms 10.71.74.129
+
+6   67.00 ms  103.15.166.78
+
+7   64.00 ms  103.15.166.77
+
+8   80.00 ms  103.131.157.130
+
+9   62.00 ms  163.47.159.133
+
+10  72.00 ms  163.47.83-5-noc.bsccl.com (163.47.83.5)
+
+11  105.00 ms 103-16-153-29-noc.bsccl.com (103.16.153.29)
+
+12  95.00 ms  103-16-153-17-noc.bsccl.com (103.16.153.17)
+
+13  98.00 ms  15133.sgw.equinix.com (27.111.228.67)
+
+14  103.00 ms ae-65.core1.sgb.edgecastcdn.net (152.195.196.131)
+
+15  102.00 ms 192.229.179.87
+
+
+
+NSE: Script Post-scanning.
+
+Initiating NSE at 23:24
+
+Completed NSE at 23:24, 0.00s elapsed
+
+Initiating NSE at 23:24
+
+Completed NSE at 23:24, 0.00s elapsed
+
+Initiating NSE at 23:24
+
+Completed NSE at 23:24, 0.00s elapsed
+
+Read data files from: C:\Program Files (x86)\Nmap
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+
+Nmap done: 1 IP address (1 host up) scanned in 332.75 seconds
+
+           Raw packets sent: 2120 (96.668KB) | Rcvd: 98 (5.396KB)
+
+</output><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="192.229.179.87"></address><hostnames><hostname type="user" name="www.w3schools.com"></hostname></hostnames><ports><extraports count="996" state="filtered"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="53"></state><service product="Edgecast CDN httpd" extrainfo="sgb/C6CA" method="probed" conf="10" name="http"></service></port><port protocol="tcp" portid="443"><state reason="syn-ack" state="open" reason_ttl="53"></state><service product="Edgecast CDN httpd" extrainfo="sgb/C6A4" method="probed" conf="10" name="http"></service></port><port protocol="tcp" portid="1119"><state reason="reset" state="closed" reason_ttl="53"></state><service method="table" conf="3" name="bnetgame"></service></port><port protocol="tcp" portid="1935"><state reason="reset" state="closed" reason_ttl="53"></state><service method="table" conf="3" name="rtmp"></service></port></ports><os><portused state="open" portid="80" proto="tcp"></portused><portused state="closed" portid="1119" proto="tcp"></portused><osmatch line="62920" name="Linux 3.1" accuracy="87"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="87"></osclass></osmatch><osmatch line="64667" name="Linux 3.2" accuracy="87"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="87"></osclass></osmatch><osmatch line="26670" name="FreeBSD 12.0-RELEASE" accuracy="86"><osclass type="general purpose" osfamily="FreeBSD" vendor="FreeBSD" osgen="12.X" accuracy="86"></osclass></osmatch><osmatch line="34824" name="HP PSC 2400-series Photosmart printer" accuracy="86"><osclass type="printer" osfamily="embedded" vendor="HP" osgen="" accuracy="86"></osclass></osmatch><osmatch line="91079" name="OpenBSD 4.3" accuracy="86"><osclass type="general purpose" osfamily="OpenBSD" vendor="OpenBSD" osgen="4.X" accuracy="86"></osclass></osmatch><osmatch line="61818" name="AXIS 210A or 211 Network Camera (Linux 2.6.17)" accuracy="86"><osclass type="webcam" osfamily="embedded" vendor="AXIS" osgen="" accuracy="86"></osclass></osmatch><osmatch line="8262" name="Asus RT-AC66U router (Linux 2.6)" accuracy="85"><osclass type="broadband router" osfamily="Linux" vendor="Linux" osgen="2.6.X" accuracy="85"></osclass></osmatch><osmatch line="60866" name="Asus RT-N16 WAP (Linux 2.6)" accuracy="85"><osclass type="WAP" osfamily="embedded" vendor="Asus" osgen="" accuracy="85"></osclass></osmatch><osmatch line="60907" name="Asus RT-N66U WAP (Linux 2.6)" accuracy="85"><osclass type="WAP" osfamily="embedded" vendor="Asus" osgen="" accuracy="85"></osclass></osmatch><osmatch line="61604" name="Tomato 1.28 (Linux 2.6.22)" accuracy="85"><osclass type="WAP" osfamily="Linux" vendor="Linux" osgen="2.6.X" accuracy="85"></osclass></osmatch></os><uptime lastboot="Fri Nov 25 23:24:21 2022" seconds="23"></uptime><tcpsequence index="256" values="4784B095,7FE91ADB,C0DD8C9A,D49BFD3D,FBE946B0,A07CC25F" difficulty="Good luck!"></tcpsequence><ipidsequence values="31B8,F854,ECA8,4DFF,6D4,5F4E" class="Randomized"></ipidsequence><tcptssequence values="6DA90377,17171BD,7FD4E087,287A342E,D22CAEDA,C44347EE" class="other"></tcptssequence><trace port="1935" proto="tcp"><hop rtt="6.00" host="" ipaddr="192.168.238.83" ttl="1"></hop><hop rtt="128.00" host="" ipaddr="10.71.70.129" ttl="2"></hop><hop rtt="73.00" host="" ipaddr="10.71.72.65" ttl="3"></hop><hop rtt="107.00" host="" ipaddr="10.71.74.129" ttl="5"></hop><hop rtt="67.00" host="" ipaddr="103.15.166.78" ttl="6"></hop><hop rtt="64.00" host="" ipaddr="103.15.166.77" ttl="7"></hop><hop rtt="80.00" host="" ipaddr="103.131.157.130" ttl="8"></hop><hop rtt="62.00" host="" ipaddr="163.47.159.133" ttl="9"></hop><hop rtt="72.00" host="163.47.83-5-noc.bsccl.com" ipaddr="163.47.83.5" ttl="10"></hop><hop rtt="105.00" host="103-16-153-29-noc.bsccl.com" ipaddr="103.16.153.29" ttl="11"></hop><hop rtt="95.00" host="103-16-153-17-noc.bsccl.com" ipaddr="103.16.153.17" ttl="12"></hop><hop rtt="98.00" host="15133.sgw.equinix.com" ipaddr="27.111.228.67" ttl="13"></hop><hop rtt="103.00" host="ae-65.core1.sgb.edgecastcdn.net" ipaddr="152.195.196.131" ttl="14"></hop><hop rtt="102.00" host="" ipaddr="192.229.179.87" ttl="15"></hop></trace></host><runstats><finished timestr="Fri Nov 25 23:24:44 2022" time="1669447484"></finished><hosts down="0" total="1" up="1"></hosts></runstats></nmaprun>
